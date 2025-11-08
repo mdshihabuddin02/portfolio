@@ -33,6 +33,17 @@ html {
     html {
       font-size: 65%; } }
 
+.blog-info-link {
+  /* This is the default text color (optional, but good practice) */
+  color: #d6f8ff; /* Example: blue default color */
+  transition: color 0.3s ease; /* Smooth transition for the color change */
+}
+
+.blog-info-link:hover {
+  /* This is the rule that applies ONLY when the mouse hovers over the link */
+  color: #FFD700; /* Yellow (Goldenrod is a nice shade) */
+}
+
 body {
   box-sizing: border-box;
   position: relative;
