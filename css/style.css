@@ -44,6 +44,17 @@ html {
   color: #FFD700; /* Yellow (Goldenrod is a nice shade) */
 }
 
+.repo-link {
+  /* This is the default text color (optional, but good practice) */
+  color: #1a434b; /* Example: blue default color */
+  transition: color 0.3s ease; /* Smooth transition for the color change */
+}
+
+.repo-link:hover {
+  /* This is the rule that applies ONLY when the mouse hovers over the link */
+  color: #239810; /* Yellow (Goldenrod is a nice shade) */
+}
+
 body {
   box-sizing: border-box;
   position: relative;
